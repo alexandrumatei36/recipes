@@ -91,3 +91,5 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 export NVM_DIR="/Users/alexandrumatei/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+PROMPT="%(?:%{%}➜ :%{%}➜ ) %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)"
